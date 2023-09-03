@@ -12,5 +12,5 @@ export class AppComponent {
   texto: string ="texto en minuscula a transformar"
   fecha: Date = new Date("December 25, 1995");
  
-  
+  paraPipe: number= 3;
 }
