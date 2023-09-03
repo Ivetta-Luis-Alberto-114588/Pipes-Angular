@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'pipes';
+
+  valor: number= 123.45343;
+  texto: string ="texto en minuscula a transformar"
+  fecha: Date = new Date("December 25, 1995");
+ 
+  
 }
